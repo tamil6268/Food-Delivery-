@@ -5,7 +5,7 @@ import bcrypt from "bcrypt";
 import jwt from 'jsonwebtoken';
 import {Auth} from './Auth.js';
 
-const MONGO_URL = "mongodb://127.0.0.1:27017";
+const MONGO_URL = "mongodb+srv://ts7371797:Tamil123@e-commerce.iodpojx.mongodb.net/Products?retryWrites=true&w=majority";
 const app = express();
 
 async function connectionMongoDb() {
